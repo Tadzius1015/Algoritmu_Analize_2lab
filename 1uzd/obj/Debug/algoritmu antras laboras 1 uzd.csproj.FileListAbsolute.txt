@@ -1,0 +1,7 @@
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\bin\Debug\algoritmu antras laboras 1 uzd.exe.config
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\bin\Debug\algoritmu antras laboras 1 uzd.exe
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\bin\Debug\algoritmu antras laboras 1 uzd.pdb
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\obj\Debug\algoritmu antras laboras 1 uzd.csproj.CoreCompileInputs.cache
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\obj\Debug\algoritmu antras laboras 1 uzd.exe
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\obj\Debug\algoritmu antras laboras 1 uzd.pdb
+C:\Users\Tadas\Desktop\algoritmu antras laboras 1 uzd\algoritmu antras laboras 1 uzd\obj\Debug\algoritmu antras laboras 1 uzd.csprojResolveAssemblyReference.cache
