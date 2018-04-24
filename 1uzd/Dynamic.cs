@@ -8,32 +8,27 @@ namespace algoritmu_antras_laboras_1_uzd
 {
     class Dynamic
     {
-        static int m = 8;
-        static int n = 8;
+        static int m = 10;
+        static int n = 10;
         static int[] a1 = new int[m];
         static int[] a2 = new int[n];
-        static int?[] memo = new int?[9];
+        static int?[,] memo = new int?[m + 1, n + 1];
+        private int operationsCount = 0;
         public void ArrayAdding()
         {
-            a1.SetValue(4, 0);
-            a1.SetValue(2, 1);
-            a1.SetValue(8, 2);
-            a1.SetValue(10, 3);
-            a1.SetValue(5, 4);
-            a1.SetValue(1, 5);
-            a1.SetValue(6, 6);
-            a1.SetValue(7, 7);
-            a2.SetValue(8, 0);
-            a2.SetValue(9, 1);
-            a2.SetValue(10, 2);
-            a2.SetValue(15, 3);
-            a2.SetValue(6, 4);
-            a2.SetValue(1, 5);
-            a2.SetValue(2, 6);
-            a2.SetValue(3, 7);
+            Random rnd = new Random();
+            for (int i = 0; i < m; i++)
+            {
+                a1.SetValue(rnd.Next(0, 500), i);
+            }
+            for (int i = 0; i < n; i++)
+            {
+                a2.SetValue(rnd.Next(0, 500), i);
+            }
         }
         public int Function(int m, int n, int[,] memo)
         {
+            operationsCount++;
             int result = 0;
             if(memo[m,n] != 0)
             {
@@ -48,7 +43,7 @@ namespace algoritmu_antras_laboras_1_uzd
             memo[m, n] = result;
             return result;
         }
-        public int DDD(int a, int b)
+        private int DDD(int a, int b)
         {
             if (a1.GetValue(a) == a2.GetValue(b))
             {
@@ -58,6 +53,10 @@ namespace algoritmu_antras_laboras_1_uzd
             {
                 return 0;
             }
+        }
+        public int GetOperationsCountt()
+        {
+            return operationsCount;
         }
     }
 }
